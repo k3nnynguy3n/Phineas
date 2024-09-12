@@ -7,5 +7,5 @@ async def hello():
     return {"message": "world"}
 
 @app.get("/check")
-async def hi(): 
+async def check(): 
     return {"message": "Status Good!"}
